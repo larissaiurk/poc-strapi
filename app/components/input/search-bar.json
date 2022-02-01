@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_input_search_bars",
+  "info": {
+    "name": "searchBar",
+    "icon": "search"
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "text",
+      "default": "Qual exame ou procedimento procura?",
+      "required": true,
+      "maxLength": 200
+    },
+    "iconName": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

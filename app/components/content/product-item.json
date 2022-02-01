@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_content_product_items",
+  "info": {
+    "name": "productItem",
+    "icon": "comment-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 20
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "iconLabel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.icone-label"
+    },
+    "valueTitle": {
+      "type": "string",
+      "default": "Valores a partir:",
+      "required": true
+    },
+    "amount": {
+      "type": "float",
+      "default": 0,
+      "required": true
+    },
+    "discountedAmount": {
+      "type": "float"
+    },
+    "discountPercentage": {
+      "type": "float",
+      "max": 100
+    },
+    "arrow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "actions.arrow"
+    }
+  }
+}

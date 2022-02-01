@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_content_section_units",
+  "info": {
+    "name": "sectionUnits",
+    "icon": "warehouse"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "actions.button",
+      "required": true
+    },
+    "units": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.units"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_content_products",
+  "info": {
+    "name": "products",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 20,
+      "default": "Produtos",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "rightArrow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "actions.arrow"
+    },
+    "leftArrow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "actions.arrow"
+    }
+  }
+}

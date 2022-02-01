@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_icone_labels",
+  "info": {
+    "name": "iconeLabel",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

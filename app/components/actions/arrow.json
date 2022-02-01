@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_actions_arrows",
+  "info": {
+    "name": "arrow",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": "arrow-left"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

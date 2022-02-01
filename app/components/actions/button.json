@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_actions_buttons",
+  "info": {
+    "name": "button",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "default": "Saiba mais",
+      "required": true,
+      "maxLength": 20
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

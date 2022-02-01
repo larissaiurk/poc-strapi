@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_units",
+  "info": {
+    "name": "units",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "units": {
+      "collection": "unit"
+    }
+  }
+}
